@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="hexagon.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5533463"
+     inkscape:cx="365.98407"
+     inkscape:cy="396.24133"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 12,19.1603 6.2009,-3.5801 V 8.41988 L 12,4.83975 5.79898,8.41988 V 15.5801 Z M 4.29898,16.4462 12,20.8923 19.7009,16.4462 V 7.55386 L 12,3.1077 4.29898,7.55386 Z"
+     fill="#080341"
+     id="path1"
+     style="display:none" />
+  <path
+     style="display:inline;fill:#00ffff;stroke-width:0.658436"
+     d="M 271.44033,621.76373 143.53909,547.88618 V 400.00126 252.11634 l 128.17336,-73.99868 128.17336,-73.99869 2.69084,1.47219 c 1.47996,0.8097 59.20936,34.10356 128.28755,73.98637 l 125.59671,72.51418 v 147.90853 147.90852 l -127.5223,73.62702 c -70.13727,40.49486 -127.98913,73.73467 -128.55967,73.86625 -0.57056,0.13158 -58.59293,-33.00566 -128.93861,-73.6383 z M 503.95576,579.13427 607.07819,519.58542 V 400 280.41458 L 503.92787,220.86573 c -56.73268,-32.75187 -103.49094,-59.54886 -103.90725,-59.54886 -0.41631,0 -47.18386,26.80487 -103.92787,59.56638 l -103.17094,59.56638 v 119.54838 119.54838 l 103.20988,59.68049 c 56.76543,32.82427 103.54552,59.63004 103.95576,59.56837 0.41024,-0.0617 47.15098,-26.90911 103.86831,-59.66098 z"
+     id="path3"
+     transform="scale(0.03)" />
+</svg>
