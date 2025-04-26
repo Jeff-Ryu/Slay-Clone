@@ -1,0 +1,227 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  /* border: 1px red solid; */
+}
+html, body {
+  overflow-x: clip;
+  overflow-y: clip;
+}
+:root {
+  --row-1: rgba(0,255,255,0.5);
+  --row-2: rgba(0,255,255,0.5);
+  --row-3: rgba(0,255,255,0.5);
+}
+/* Font */
+.chakra-petch-semibold {
+  font-family: "Chakra Petch", sans-serif;
+}
+button {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+svg {
+  overflow: visible;
+}
+body {
+  margin: 0;
+  font-weight: bold;
+  color: white;
+  background: url('../image/background.jpg') no-repeat center/cover border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 2.5rem;
+  margin-top: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  min-width: 500px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.hex-container {
+  display: flex;
+  width: 70px;
+  aspect-ratio: 1/1;
+  margin: -6px -2px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: visible;
+}
+/* Polygon Styling and Animation */
+polygon.hex {
+  fill: darkcyan;
+  transform-origin: 50% 50%;
+  width: 100%;
+  transition: filter 0.3s, transform 0.3s;
+}
+polygon.hex:hover {
+  filter: brightness(1.5) !important;
+  cursor: pointer;
+}
+.btn-turn {
+  background-color: darkcyan;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-top: 50px;
+  transition: all 0.3s;
+}
+.btn-turn:hover {
+  background-color: cyan;
+  border: 2px solid cyan;
+  cursor: pointer;
+  color: black;
+}
+/* User Interface Column ---------------------------------------------------------------*/
+#user-interface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  height: 450px;
+  margin-top: 0px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 139, 139, 0.4);
+  box-shadow: 0px 0px 8px black inset;
+}
+.ui-row {
+  display: flex;
+  width: 85%;
+  box-shadow: 0px 0px 8px black;
+  background-color: rgba(0, 132, 132, 0.55);
+  border-radius: 10px;
+}
+/* Turn Bar */
+.info {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+#turn {
+  margin: 10px 0px;
+  margin-left: 40px;
+  transition: color 0.3s;
+  font-size: 1.1rem;
+}
+/* Economy Bar */
+.money {
+  margin: 5px 0px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.money-col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.money-col1 p {
+  margin-left: 0px !important;
+}
+.money-col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#income, #expense, .income, .expense {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+#balance, .balance {
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+/* Unit Purchase Bar */
+.unit-selection {
+  margin: 5px 0px;
+  flex-direction: row;
+  justify-content: center;
+}
+.unit-selection p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.unit-selection p:hover {
+  cursor: pointer;;
+}
+/* Unit Wages Bar */
+.unit-wages {
+  margin: 5px 0px;
+  padding: 10px 0px;
+  flex-direction: column;
+}
+.unit-wages p {
+  margin: 10px 0px;
+  font-size: 0.9rem;
+}
+.ui-row p {
+  margin-left: 12px;
+}
+
+
+
+.object {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%; /* size can be adjusted */
+  height: 40%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1;
+}
+.green-text {
+  color: rgb(0, 255, 0) !important;
+}
+.red-text {
+  color: rgb(255, 0, 0) !important;
+}
+.green-bg {
+  background-color: rgba(49, 162, 49, 1) !important;
+}
+.red-bg {
+  background-color: rgba(185, 13, 13, 1) !important;
+}
+#green {
+  fill: rgb(0, 120, 0);
+}
+#red {
+  fill: rgb(120, 0, 0);
+}
+.animate-click {
+  animation: clicked 0.3s ease;
+}
+@keyframes clicked {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
